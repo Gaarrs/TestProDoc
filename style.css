@@ -1,0 +1,104 @@
+.nav {
+    display: flex;
+    min-width: 200px;
+}
+
+.nav__item {
+    color: #0000FF;
+    text-decoration: underline;
+    padding: 5px 15px;
+    cursor: pointer;
+}
+
+li {
+    margin-top: 5px;
+}
+
+.favorite {
+    padding: 5%;
+}
+
+.users__list {
+    display: none;
+}
+
+.album__list {
+    display: none;
+}
+
+.users__item {
+    cursor: pointer;
+}
+
+.albums__item {
+    cursor: pointer;
+}
+
+.photo__item {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+
+.fav__item {
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.fav__title {
+    position: relative;
+    margin-right: -80%;
+    left: 120px;
+}   
+
+.modal {
+    width: 600px;
+    height: 600px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: #000;
+    text-align: end;
+    z-index: 10;
+}
+
+.close {
+    font-size: 40px;
+    position: relative;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.fav {
+    width: 20px;
+    height: 20px;
+    background-image: url(img/fav.png);
+    background-size: cover;
+    position: relative;
+    margin-left: -25px;
+}
+
+.toggle {
+    background-image: url(img/fav_toggle.png);
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    position: relative;
+    margin-left: -25px;
+}
+
+
+.visible {
+    display: block;
+}
+
+.hidden {
+    display: none;
+}
